@@ -1,0 +1,13 @@
+env: development
+kite:
+  api_key: "YOUR_API_KEY"
+  api_secret: "YOUR_API_SECRET"
+  access_token: "YOUR_ACCESS_TOKEN"
+  instruments:
+    - "NFO:NIFTY24MAYFUT"
+    - "NFO:BANKNIFTY24MAYFUT"
+db:
+  dsn: "postgres://user:pass@localhost:5432/algo_kite?sslmode=disable"
+  max_idle: 5
+  max_open: 10
+  log_queries: false

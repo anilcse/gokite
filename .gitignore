@@ -1,0 +1,28 @@
+# Binaries for programs and plugins
+bin/
+dist/
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE specific files
+.idea/
+.vscode/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+
+# Build output
+build/ 

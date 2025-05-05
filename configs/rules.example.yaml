@@ -1,0 +1,17 @@
+# configs/rules.yaml
+rules:
+  - id: "golden-cross"
+    enabled: true
+    symbol: NIFTY23MAYFUT
+    timeframe: "5m"
+    condition:
+      type: crossover
+      fast_ma: 20
+      slow_ma: 50
+    entry:
+      side: BUY
+      qty: 1
+      order_type: MARKET
+    exit:
+      stop_loss_pct: 0.8
+      take_profit_pct: 1.2
